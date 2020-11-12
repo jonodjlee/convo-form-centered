@@ -195,7 +195,6 @@
             dispatcher.addEventListener(
                 cf.ChatListEvents.CHATLIST_UPDATED,
                 function(event) {
-                    // console.log("chat list updated...", event);
                 },
                 false
             );
@@ -222,7 +221,7 @@
                             console.log("Success! Data: " + data.statusText);
                             $(location).attr('href', 'https://remoteworksurvey.netlify.app/success.html');
                         });
-                    })*/
+                    })*/ /*this is an AJAX post to static form endpoint*/
 
                 }
             });
